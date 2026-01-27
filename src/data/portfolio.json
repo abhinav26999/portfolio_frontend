@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "theme": "dark",
+    "accent": "neon-cyan",
+    "style": "cyberpunk-gamer",
+    "uiMood": "high-energy, animated, immersive"
+  },
+
+  "boot": {
+    "lines": [
+      "INITIALIZING PORTFOLIO SYSTEM…",
+      "LOADING UI MODULES…",
+      "SYNCING FRONTEND SKILLS…",
+      "WELCOME, PLAYER"
+    ]
+  },
+
+  "player": {
+    "username": "FrontendDev",
+    "role": "Frontend Developer",
+    "level": 21,
+    "experience": "3+ Years",
+    "rank": "Elite UI Engineer",
+    "tagline": "Building high-performance interfaces with game-level polish."
+  },
+
+  "stats": [
+    { "label": "Projects Completed", "value": 30 },
+    { "label": "Years Experience", "value": 3 },
+    { "label": "UI Components Built", "value": 120 },
+    { "label": "Performance Score", "value": "95+" }
+  ],
+
+  "skills": {
+    "loadout": [
+      {
+        "category": "Languages",
+        "items": ["JavaScript", "TypeScript", "HTML5", "CSS3"]
+      },
+      {
+        "category": "Frameworks",
+        "items": ["React", "Next.js", "Tailwind CSS", "Framer Motion"]
+      },
+      {
+        "category": "Animation & UI",
+        "items": ["GSAP", "Framer Motion", "Lenis Scroll", "Swiper"]
+      }
+    ]
+  },
+
+  "missions": [
+    {
+      "title": "NeonDash Admin Panel",
+      "type": "Main Quest",
+      "difficulty": "Hard",
+      "description": "A cyber-themed admin dashboard with animated charts and real-time UI feedback.",
+      "impact": "User engagement +35%",
+      "image": "/project1.png",
+      "tech": ["React", "Tailwind", "Framer Motion"]
+    },
+    {
+      "title": "Pulse UI System",
+      "type": "Side Quest",
+      "difficulty": "Medium",
+      "description": "A scalable UI component system focused on accessibility and performance.",
+      "impact": "Dev speed +40%",
+      "image": "/project2.png",
+      "tech": ["React", "Storybook", "Tailwind"]
+    }
+  ],
+
+  "timeline": [
+    {
+      "year": "2022",
+      "event": "Started professional frontend development"
+    },
+    {
+      "year": "2023",
+      "event": "Built multiple high-traffic UI systems"
+    },
+    {
+      "year": "2024",
+      "event": "Focused on animation-heavy & gamer-style UIs"
+    }
+  ],
+
+  "achievements": [
+    {
+      "title": "Performance Master",
+      "icon": "⚡",
+      "description": "Optimized apps to 95+ Lighthouse scores"
+    },
+    {
+      "title": "Animation Specialist",
+      "icon": "🎥",
+      "description": "Advanced motion & interaction design"
+    },
+    {
+      "title": "UI Architect",
+      "icon": "🧠",
+      "description": "Scalable design systems"
+    }
+  ],
+
+  "arsenal": [
+    "Vite",
+    "GSAP",
+    "Lenis Scroll",
+    "Three.js",
+    "Swiper",
+    "Radix UI",
+    "Figma"
+  ],
+
+  "cta": {
+    "headline": "READY TO BUILD SOMETHING LEGENDARY?",
+    "subtext": "Looking for a frontend dev who treats UI like a game engine.",
+    "action": "ENTER COLLAB MODE"
+  }
+}
