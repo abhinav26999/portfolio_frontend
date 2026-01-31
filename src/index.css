@@ -46,6 +46,48 @@ html {
           radial-gradient(circle at 20% 20%, rgba(124,124,255,0.15), transparent 40%),
           radial-gradient(circle at 80% 80%, rgba(34,247,221,0.15), transparent 40%);
 }
-html {
-  scroll-behavior: smooth;
+.hero-ambient {
+  background:
+          radial-gradient(600px at 20% 20%, rgba(34,247,221,0.12), transparent 40%),
+          radial-gradient(600px at 80% 80%, rgba(124,124,255,0.12), transparent 40%);
+  animation: drift 20s ease-in-out infinite alternate;
+}
+
+@keyframes drift {
+  from {
+    background-position: 0% 0%, 100% 100%;
+  }
+  to {
+    background-position: 10% 20%, 90% 80%;
+  }
+}
+
+.hud-grid {
+  background-image:
+          linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+:root {
+  --mouse-x: 50vw;
+  --mouse-y: 50vh;
+}
+
+/* GLOBAL CURSOR GRADIENT */
+.cursor-gradient {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 5;
+  background:
+          radial-gradient(
+                  400px at var(--mouse-x) var(--mouse-y),
+                  rgba(34,247,221,0.15),
+                  transparent 40%
+          ),
+          radial-gradient(
+                  700px at calc(var(--mouse-x) + 100px) calc(var(--mouse-y) + 100px),
+                  rgba(124,124,255,0.12),
+                  transparent 50%
+          );
 }

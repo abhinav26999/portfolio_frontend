@@ -103,18 +103,29 @@
   ],
 
   "arsenal": [
-    "Vite",
-    "GSAP",
-    "Lenis Scroll",
-    "Three.js",
-    "Swiper",
-    "Radix UI",
-    "Figma"
+    { "name": "Vite", "rarity": "epic" },
+    { "name": "GSAP", "rarity": "legendary" },
+    { "name": "Lenis Scroll", "rarity": "epic" },
+    { "name": "Three.js", "rarity": "legendary" },
+    { "name": "Swiper", "rarity": "common" },
+    { "name": "Radix UI", "rarity": "epic" },
+    { "name": "Figma", "rarity": "common" }
   ],
+
 
   "cta": {
     "headline": "READY TO BUILD SOMETHING LEGENDARY?",
     "subtext": "Looking for a frontend dev who treats UI like a game engine.",
     "action": "ENTER COLLAB MODE"
-  }
+  },
+  "navigation": [
+    { "id": "hud", "label": "HUD" },
+    { "id": "loadout", "label": "LOADOUT" },
+    { "id": "arsenal", "label": "ARSENAL" },
+    { "id": "missions", "label": "MISSIONS" },
+    { "id": "timeline", "label": "TIMELINE" },
+    { "id": "achievements", "label": "ACHIEVEMENTS" },
+    { "id": "contact", "label": "CONTACT" }
+  ]
+
 }
