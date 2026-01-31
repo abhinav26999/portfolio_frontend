@@ -1,4 +1,3 @@
-import { Swiper, SwiperSlide } from "swiper/react"
 import { motion } from "framer-motion"
 import "swiper/css"
 import useActiveSection from "../../hooks/useActiveSection"
@@ -16,69 +15,81 @@ export default function Projects({ data }) {
         <section
             ref={ref}
             id="missions"
-            className="py-24 px-6 max-w-6xl mx-auto hud-grid"
+            className="py-24 px-6 max-w-7xl mx-auto hud-grid"
         >
-            <h2 className="text-4xl font-bold text-neon neon-text mb-4">
-                MISSIONS
-            </h2>
-            <p className="text-muted mb-12 text-sm">
-                Active & completed quests
-            </p>
+            {/* header */}
+            <div className="mb-14">
+                <h2 className="text-4xl font-bold text-neon neon-text mb-3">
+                    MISSIONS
+                </h2>
+                <p className="text-muted text-sm tracking-widest uppercase">
+                    Active & Completed Quests
+                </p>
+            </div>
 
-            <Swiper
-                spaceBetween={32}
-                slidesPerView={1.1}
-                breakpoints={{
-                    768: { slidesPerView: 2 }
-                }}
-            >
+            {/* missions grid */}
+            <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
                 {data.map((mission, i) => (
-                    <SwiperSlide key={mission.title}>
-                        <motion.div
-                            initial={{ opacity: 0, y: 30 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            whileHover={{ scale: 1.03 }}
-                            transition={{ delay: i * 0.1 }}
-                            viewport={{ once: true }}
-                            className="relative bg-surface rounded-2xl p-6 overflow-hidden"
-                        >
-                            {/* image */}
-                            <div className="relative mb-4 overflow-hidden rounded-lg">
-                                <img
-                                    src={mission.image}
-                                    alt={mission.title}
-                                    className="w-full h-48 object-cover"
-                                />
-                                <div className="absolute inset-0 bg-black/30" />
-                            </div>
+                    <motion.div
+                        key={mission.title}
+                        initial={{ opacity: 0, y: 40 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        whileHover={{ scale: 1.04 }}
+                        transition={{ duration: 0.4, delay: i * 0.08 }}
+                        viewport={{ once: true }}
+                        className="group relative bg-surface rounded-2xl p-6 overflow-hidden border border-white/5"
+                    >
+                        {/* scanline glow */}
+                        <div className="pointer-events-none absolute inset-0 opacity-0 group-hover:opacity-100 transition bg-gradient-to-br from-neon/15 via-transparent to-transparent" />
 
-                            {/* meta */}
-                            <p className="text-xs uppercase tracking-widest text-neon">
-                                {mission.type} •{" "}
-                                <span className={difficultyStyles[mission.difficulty]}>
-                  {mission.difficulty}
-                </span>
-                            </p>
+                        {/* image */}
+                        <div className="relative mb-4 overflow-hidden rounded-lg">
+                            <img
+                                src={mission.image}
+                                alt={mission.title}
+                                className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
+                            />
+                            <div className="absolute inset-0 bg-black/40" />
+                        </div>
 
-                            <h3 className="text-2xl font-semibold mt-2">
-                                {mission.title}
-                            </h3>
+                        {/* meta */}
+                        <p className="text-xs uppercase tracking-widest text-neon">
+                            {mission.type} •{" "}
+                            <span className={difficultyStyles[mission.difficulty]}>
+              {mission.difficulty}
+            </span>
+                        </p>
 
-                            <p className="text-muted mt-2 text-sm">
-                                {mission.description}
-                            </p>
+                        {/* title */}
+                        <h3 className="text-2xl font-semibold mt-2 text-white">
+                            {mission.title}
+                        </h3>
 
-                            {/* impact */}
-                            <div className="mt-4 text-sm text-neon">
-                                Impact: {mission.impact}
-                            </div>
+                        {/* description */}
+                        <p className="text-muted mt-2 text-sm leading-relaxed">
+                            {mission.description}
+                        </p>
 
-                            {/* glow */}
-                            <div className="pointer-events-none absolute inset-0 opacity-0 hover:opacity-100 transition bg-gradient-to-br from-neon/10 to-transparent" />
-                        </motion.div>
-                    </SwiperSlide>
+                        {/* impact */}
+                        <div className="mt-4 text-sm text-neon">
+                            Impact: <span className="text-white/90">{mission.impact}</span>
+                        </div>
+
+                        {/* tech stack chips */}
+                        <div className="mt-5 flex flex-wrap gap-2">
+                            {mission.tech.map((tech) => (
+                                <span
+                                    key={tech}
+                                    className="text-xs px-3 py-1 rounded-full border border-neon/30 text-neon bg-neon/5"
+                                >
+                {tech}
+              </span>
+                            ))}
+                        </div>
+                    </motion.div>
                 ))}
-            </Swiper>
+            </div>
         </section>
     )
+
 }

@@ -32,7 +32,7 @@ export default function Contact({ data }) {
             </motion.p>
 
             <motion.a
-                href={`mailto:${data.email || "your.email@example.com"}`}
+                href={`mailto:${data.email || "abhinav.official168@gmail.com"}`}
                 whileHover={{ scale: 1.12 }}
                 whileTap={{ scale: 0.95 }}
                 className="relative z-10 inline-block mt-12 px-12 py-5 bg-neon text-black font-bold rounded-2xl neon-glow tracking-widest"

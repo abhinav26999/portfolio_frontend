@@ -8,124 +8,181 @@
 
   "boot": {
     "lines": [
-      "INITIALIZING PORTFOLIO SYSTEM…",
-      "LOADING UI MODULES…",
-      "SYNCING FRONTEND SKILLS…",
+      "BOOTING SOFTWARE ENGINEER PROFILE…",
+      "LOADING FULL-STACK MODULES…",
+      "SYNCING BACKEND & FRONTEND SYSTEMS…",
+      "INITIALIZING REAL-WORLD PROJECT EXPERIENCE…",
       "WELCOME, PLAYER"
     ]
   },
 
   "player": {
-    "username": "FrontendDev",
-    "role": "Frontend Developer",
-    "level": 21,
+    "username": "Abhinav",
+    "role": "Full Stack Software Developer",
+    "level": 3,
     "experience": "3+ Years",
-    "rank": "Elite UI Engineer",
-    "tagline": "Building high-performance interfaces with game-level polish."
+    "rank": "Associate Software Engineer",
+    "tagline": "Building scalable systems, powerful backends, and engaging user experiences."
   },
 
   "stats": [
-    { "label": "Projects Completed", "value": 30 },
+    { "label": "Client Projects", "value": 7 },
     { "label": "Years Experience", "value": 3 },
-    { "label": "UI Components Built", "value": 120 },
-    { "label": "Performance Score", "value": "95+" }
+    { "label": "Companies Worked", "value": 1 },
+    { "label": "Apps Live (Playstore/Appstore)", "value": 2 }
   ],
 
   "skills": {
     "loadout": [
       {
-        "category": "Languages",
-        "items": ["JavaScript", "TypeScript", "HTML5", "CSS3"]
+        "category": "Backend",
+        "items": ["Node.js", "Express.js", "PHP (Laravel)", "REST APIs"]
       },
       {
-        "category": "Frameworks",
-        "items": ["React", "Next.js", "Tailwind CSS", "Framer Motion"]
+        "category": "Frontend",
+        "items": ["Angular", "React", "Tailwind CSS", "HTML5", "CSS3"]
       },
       {
-        "category": "Animation & UI",
-        "items": ["GSAP", "Framer Motion", "Lenis Scroll", "Swiper"]
+        "category": "Databases",
+        "items": ["MongoDB", "MySQL", "phpMyAdmin", "Firebase"]
+      },
+      {
+        "category": "Tools & Platforms",
+        "items": ["Git & GitHub", "XAMPP", "Postman", "Stripe", "Firebase Console"]
       }
     ]
   },
 
   "missions": [
     {
-      "title": "NeonDash Admin Panel",
-      "type": "Main Quest",
+      "title": "GetLicense",
+      "type": "Client Project",
       "difficulty": "Hard",
-      "description": "A cyber-themed admin dashboard with animated charts and real-time UI feedback.",
-      "impact": "User engagement +35%",
-      "image": "/project1.png",
-      "tech": ["React", "Tailwind", "Framer Motion"]
+      "description": "South Africa’s private vehicle license renewal platform with secure payment integration.",
+      "impact": "Handled backend APIs, Stripe payment gateway, and admin workflows.",
+      "image": "/getlicense.png",
+      "tech": ["Laravel", "Angular", "MySQL", "Stripe"]
     },
     {
-      "title": "Pulse UI System",
-      "type": "Side Quest",
+      "title": "SolarPowerM",
+      "type": "Client Project",
       "difficulty": "Medium",
-      "description": "A scalable UI component system focused on accessibility and performance.",
-      "impact": "Dev speed +40%",
-      "image": "/project2.png",
-      "tech": ["React", "Storybook", "Tailwind"]
+      "description": "Energy management and service platform for solar power solutions.",
+      "impact": "Built backend logic and frontend admin features.",
+      "image": "/solarpowerm.png",
+      "tech": ["Laravel", "Angular", "MySQL"]
+    },
+    {
+      "title": "Madabank Printing (Tawassul Group)",
+      "type": "Client Project",
+      "difficulty": "Medium",
+      "description": "Enterprise printing management system for business operations.",
+      "impact": "Implemented backend services and admin panel.",
+      "image": "/madabank.png",
+      "tech": ["Laravel", "Angular", "MySQL"]
+    },
+    {
+      "title": "Lollipop App",
+      "type": "Mobile Platform",
+      "difficulty": "Hard",
+      "description": "Mobile application with admin dashboard and backend services.",
+      "impact": "Backend architecture, admin panel, and Firebase integration.",
+      "image": "/lollipop.png",
+      "tech": ["MERN", "Firebase"]
+    },
+    {
+      "title": "Gentle Stepper",
+      "type": "Mobile Platform",
+      "difficulty": "Hard",
+      "description": "Mobile app with real-time data handling and admin controls.",
+      "impact": "Designed backend APIs and managed admin panel.",
+      "image": "/gentlestepper.png",
+      "tech": ["MERN", "Firebase"]
+    },
+    {
+      "title": "Runamate",
+      "type": "Ongoing Project",
+      "difficulty": "Hard",
+      "description": "Currently developing backend and admin systems.",
+      "impact": "Full backend responsibility.",
+      "image": "/runamate.png",
+      "tech": ["MERN", "Firebase"]
+    },
+    {
+      "title": "Niyukti Talent Solutions",
+      "type": "Freelance Project",
+      "difficulty": "Medium",
+      "description": "Live freelance project delivering a complete business solution.",
+      "impact": "End-to-end development and deployment.",
+      "image": "/niyukti.png",
+      "tech": ["Full Stack"]
     }
   ],
 
   "timeline": [
     {
       "year": "2022",
-      "event": "Started professional frontend development"
+      "event": "Completed B.Tech and started professional journey"
     },
     {
       "year": "2023",
-      "event": "Built multiple high-traffic UI systems"
+      "event": "Backend & full-stack internship training at KodNest"
     },
     {
-      "year": "2024",
-      "event": "Focused on animation-heavy & gamer-style UIs"
+      "year": "Jul 2024",
+      "event": "Joined Aeologic Technologies as Backend Developer Intern"
+    },
+    {
+      "year": "Dec 2024",
+      "event": "Converted to Software Trainee at Aeologic Technologies"
+    },
+    {
+      "year": "Nov 2025",
+      "event": "Promoted to Associate Software Engineer"
     }
   ],
 
   "achievements": [
     {
-      "title": "Performance Master",
-      "icon": "⚡",
-      "description": "Optimized apps to 95+ Lighthouse scores"
+      "title": "Production Engineer",
+      "icon": "🚀",
+      "description": "Delivered multiple real-world client projects"
     },
     {
-      "title": "Animation Specialist",
-      "icon": "🎥",
-      "description": "Advanced motion & interaction design"
+      "title": "Backend Specialist",
+      "icon": "🧩",
+      "description": "Designed scalable APIs and admin systems"
     },
     {
-      "title": "UI Architect",
-      "icon": "🧠",
-      "description": "Scalable design systems"
+      "title": "Mobile Platform Contributor",
+      "icon": "📱",
+      "description": "Worked on apps live on Play Store & App Store"
     }
   ],
 
   "arsenal": [
-    { "name": "Vite", "rarity": "epic" },
-    { "name": "GSAP", "rarity": "legendary" },
-    { "name": "Lenis Scroll", "rarity": "epic" },
-    { "name": "Three.js", "rarity": "legendary" },
-    { "name": "Swiper", "rarity": "common" },
-    { "name": "Radix UI", "rarity": "epic" },
-    { "name": "Figma", "rarity": "common" }
+    { "name": "Node.js", "rarity": "epic" },
+    { "name": "Laravel", "rarity": "legendary" },
+    { "name": "Angular", "rarity": "epic" },
+    { "name": "MongoDB", "rarity": "epic" },
+    { "name": "Firebase", "rarity": "epic" },
+    { "name": "Stripe", "rarity": "legendary" },
+    { "name": "Git & GitHub", "rarity": "common" }
   ],
 
-
   "cta": {
-    "headline": "READY TO BUILD SOMETHING LEGENDARY?",
-    "subtext": "Looking for a frontend dev who treats UI like a game engine.",
-    "action": "ENTER COLLAB MODE"
+    "headline": "READY TO BUILD SCALABLE SOFTWARE?",
+    "subtext": "Looking for a full-stack developer who understands real production systems.",
+    "action": "START A CONVERSATION"
   },
+
   "navigation": [
     { "id": "hud", "label": "HUD" },
     { "id": "loadout", "label": "LOADOUT" },
     { "id": "arsenal", "label": "ARSENAL" },
-    { "id": "missions", "label": "MISSIONS" },
-    { "id": "timeline", "label": "TIMELINE" },
+    { "id": "missions", "label": "PROJECTS" },
+    { "id": "timeline", "label": "JOURNEY" },
     { "id": "achievements", "label": "ACHIEVEMENTS" },
     { "id": "contact", "label": "CONTACT" }
   ]
-
 }
