@@ -86,8 +86,9 @@
       "type": "Mobile Platform",
       "difficulty": "Hard",
       "description": "Mobile application with admin dashboard and backend services.",
+      "link": "http://www.niyuktitalent.in/",
       "impact": "Backend architecture, admin panel, and Firebase integration.",
-      "image": "/lollipop.png",
+      "image": "/Frame 126.svg",
       "tech": ["MERN", "Firebase"]
     },
     {
@@ -95,8 +96,9 @@
       "type": "Mobile Platform",
       "difficulty": "Hard",
       "description": "Mobile app with real-time data handling and admin controls.",
+      "link": "https://play.google.com/store/apps/details?id=com.gentlestepper.app",
       "impact": "Designed backend APIs and managed admin panel.",
-      "image": "/gentlestepper.png",
+      "image": "/Logo (1).svg",
       "tech": ["MERN", "Firebase"]
     },
     {
@@ -104,8 +106,9 @@
       "type": "Ongoing Project",
       "difficulty": "Hard",
       "description": "Currently developing backend and admin systems.",
+      "link": "http://www.niyuktitalent.in/",
       "impact": "Full backend responsibility.",
-      "image": "/runamate.png",
+      "image": "/Logo.svg",
       "tech": ["MERN", "Firebase"]
     },
     {
@@ -113,8 +116,9 @@
       "type": "Freelance Project",
       "difficulty": "Medium",
       "description": "Live freelance project delivering a complete business solution.",
+      "link": "http://www.niyuktitalent.in/",
       "impact": "End-to-end development and deployment.",
-      "image": "/niyukti.png",
+      "image": "/logo1.png",
       "tech": ["Full Stack"]
     }
   ],

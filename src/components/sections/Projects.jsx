@@ -47,7 +47,7 @@ export default function Projects({ data }) {
                             <img
                                 src={mission.image}
                                 alt={mission.title}
-                                className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
+                                className="w-full h-48 transition-transform duration-500 group-hover:scale-110"
                             />
                             <div className="absolute inset-0 bg-black/40" />
                         </div>
@@ -74,7 +74,16 @@ export default function Projects({ data }) {
                         <div className="mt-4 text-sm text-neon">
                             Impact: <span className="text-white/90">{mission.impact}</span>
                         </div>
-
+                        {mission.link && (
+                            <a
+                                href={mission.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center gap-2 mt-4 text-sm text-neon border border-neon/40 px-4 py-2 rounded-lg hover:bg-neon/10 transition"
+                            >
+                                🌐 VISIT PROJECT
+                            </a>
+                        )}
                         {/* tech stack chips */}
                         <div className="mt-5 flex flex-wrap gap-2">
                             {mission.tech.map((tech) => (
