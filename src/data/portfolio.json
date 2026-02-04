@@ -60,6 +60,7 @@
       "difficulty": "Hard",
       "description": "South Africa’s private vehicle license renewal platform with secure payment integration.",
       "impact": "Handled backend APIs, Stripe payment gateway, and admin workflows.",
+      "link": "https://getlicense.aeologic.in/",
       "image": "/getlicense.png",
       "tech": ["Laravel", "Angular", "MySQL", "Stripe"]
     },
@@ -78,6 +79,7 @@
       "difficulty": "Medium",
       "description": "Enterprise printing management system for business operations.",
       "impact": "Implemented backend services and admin panel.",
+      "link": "https://madabranding.aeologic.in/",
       "image": "/madabank.png",
       "tech": ["Laravel", "Angular", "MySQL"]
     },
@@ -86,7 +88,7 @@
       "type": "Mobile Platform",
       "difficulty": "Hard",
       "description": "Mobile application with admin dashboard and backend services.",
-      "link": "http://www.niyuktitalent.in/",
+      "link": "https://lollipop-69b8f.web.app/",
       "impact": "Backend architecture, admin panel, and Firebase integration.",
       "image": "/Frame 126.svg",
       "tech": ["MERN", "Firebase"]
@@ -96,7 +98,7 @@
       "type": "Mobile Platform",
       "difficulty": "Hard",
       "description": "Mobile app with real-time data handling and admin controls.",
-      "link": "https://play.google.com/store/apps/details?id=com.gentlestepper.app",
+      "link": "https://www.gentlestepper.com/",
       "impact": "Designed backend APIs and managed admin panel.",
       "image": "/Logo (1).svg",
       "tech": ["MERN", "Firebase"]
@@ -106,7 +108,7 @@
       "type": "Ongoing Project",
       "difficulty": "Hard",
       "description": "Currently developing backend and admin systems.",
-      "link": "http://www.niyuktitalent.in/",
+      "link": "http://ec2-51-44-178-33.eu-west-3.compute.amazonaws.com:4000/",
       "impact": "Full backend responsibility.",
       "image": "/Logo.svg",
       "tech": ["MERN", "Firebase"]
